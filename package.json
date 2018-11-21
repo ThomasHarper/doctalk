@@ -5,6 +5,7 @@
   "author": "Thomas Harper <thomasbentkowski@gmail.com>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
+    "franc": "^4.0.0",
     "hubot": "^3.1.1",
     "hubot-diagnostics": "^1.0.0",
     "hubot-google-images": "^0.2.7",
