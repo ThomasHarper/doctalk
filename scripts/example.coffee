@@ -15,12 +15,16 @@ module.exports = (robot) ->
         # res.send "Speak english please #{image.data[index].embed_url}"
       images_list = [
         'https://imgflip.com/i/2n8515',
-        'https://imgflip.com/i/2n858d'
-        'https://imgflip.com/i/2n85bh'
-        'https://imgflip.com/i/2n85hz'
-        'https://imgflip.com/i/2n85lm'
+        'https://imgflip.com/i/2n858d',
+        'https://imgflip.com/i/2n85bh',
+        'https://imgflip.com/i/2n85hz',
+        'https://imgflip.com/i/2n85lm',
         'https://imgflip.com/i/2n85ob',
-        'https://imgflip.com/i/2n85sg'
+        'https://imgflip.com/i/2n85sg',
+        'https://imgur.com/YtqecMq',
+        'https://imgur.com/9skKuka',
+        'https://imgur.com/tEJLWPo',
+        'https://imgur.com/B3vzUHZ'
       ]
       index = Math.floor(Math.random() * images_list.length)
       res.reply  "Speak English please #{images_list[index]}"
